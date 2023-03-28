@@ -248,7 +248,7 @@ static {
 
 ### 4__DBmanager를 통해 만든 메소드를 통해 DAO를 완성하고, 이를 Controller에 전달하여 View를 만든다.
 
-[페이징 처리하기 (thymeleaf 활용)](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20(thymeleaf%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC)%20eeff5d817d284e7984e0c4d93d80d7fa.md)
+[페이징 처리하기 (thymeleaf 활용)](페이징 처리하기.md)
 
 ## 2) Spring & JPA로 간단한 게시판 만들기
 
