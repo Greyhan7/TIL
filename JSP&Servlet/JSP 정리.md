@@ -135,7 +135,7 @@
     </html>
     ```
     
-    ![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled.png)
+   <img src="/JSP&Servlet/image/Untitled.png">
     
 - DAO와 VO를 생성하고 JSP 페이지를 통해 데이터베이스 값이 나오는 HTML페이지 만들기2
     
@@ -259,7 +259,7 @@
     </html>
     ```
     
-    ![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%201.png)
+    <img src="/JSP&Servlet/image/Untitled1.png">
     
 
 ## 2) Servlet이란
@@ -277,7 +277,7 @@
     - 다음과 같은 메소드를 지닌다.
     - getparameter~ 를 통해 페이지에서 값을 전달 받을 수 있다.
     
-    ![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%202.png)
+    <img src="/JSP&Servlet/image/Untitled2.png">
     
 
 - 데이터베이스와 연동하여 서블릿을 활용하여 데이터베이스 값을 추가하는 HTML 페이지 만들기 (서블릿의 Post 방식 사용)
@@ -453,9 +453,9 @@
 
 ### 작동과정
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%203.png)
+<img src="/JSP&Servlet/image/Untitled3.png">
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%204.png)
+<img src="/JSP&Servlet/image/Untitled4.png">
 
 - 클라이언트 측에서 URL을 통해 접속하면 HTTP Request에서 Servlet Container로 전송.
 - Servlet Container가 HttpServlerRequest, HttpServlerResponse 객체를 생성.
@@ -492,7 +492,7 @@
 - 인코딩이나 에러 페이지 등을 설정할 수 있다.
 - <@ page속성1=”값1”%> 의 형태로 나타냄.
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%205.png)
+<img src="/JSP&Servlet/image/Untitled5.png">
 
 ### include 지시자
 
@@ -505,24 +505,24 @@
 - 서버나 클라이언트에게 어떤 기능을 하도록 명령하는 태그.
 - JSP 페이지에서 페이지와 페이지 사이를 제어하고, 다른 페이지 실행결과 내용을 현재 페이지에 포함시킨다.
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%206.png)
+<img src="/JSP&Servlet/image/Untitled6.png">
 
 - 주요 태그들
     - forward : 다른 곳으로 보내기 위한 태그. response.sendReDirect(””)와 같은 기능을 하지만 주소가 드러나지 않는다.
     - include : include 지시자와 마찬가지로 다른 문서를 포함시킨다.
     - useBean : 자바 객체를 불러올 수 있다.
     
-    ![위의 VO를 활용한 set, get과 밑의 useBean과 set,get 액션태그를 활용하면 같은 기능을 한다](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%207.png)
+    <img src="/JSP&Servlet/image/Untitled7.png">
     
     위의 VO를 활용한 set, get과 밑의 useBean과 set,get 액션태그를 활용하면 같은 기능을 한다
     
     - param : <jsp:forward>나 <jsp:include>의 자식 노드로 사용할 때 값을 전달한다.
     
-    ![jsp:forward에서 param으로 자식 노드 생성](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%208.png)
+    <img src="/JSP&Servlet/image/Untitled8.png">
     
     jsp:forward에서 param으로 자식 노드 생성
     
-    ![forward된 페이지에서 노드를 활용할 수 있음](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%209.png)
+    <img src="/JSP&Servlet/image/Untitled9.png">
     
     forward된 페이지에서 노드를 활용할 수 있음
     
@@ -598,7 +598,7 @@
 - JSP 페이지를 작성할 때 특별한 기능을 제공하는 객체.
 - 따로 선언하지 않더라도 사용할 수 있다.
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2010.png)
+<img src="/JSP&Servlet/image/Untitled10.png">
 
 ### 01. request
 
@@ -608,9 +608,9 @@
 
 request 내장 객체의 메소드들
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2011.png)
+<img src="/JSP&Servlet/image/Untitled11.png">
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2012.png)
+<img src="/JSP&Servlet/image/Untitled12.png">
 
 | 메소드명 | 기능 | 예시 |
 | --- | --- | --- |
@@ -634,7 +634,7 @@ request 내장 객체의 메소드들
 
 - 페이지를 이동할 때마다 http 프로토콜 상에 특정한 정보를 저장하기 위해 사용하는 내장객체.
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2013.png)
+<img src="/JSP&Servlet/image/Untitled13.png">
 
 - 로그인과 로그아웃 시 활용한다.
 - 로그아웃하거나 브라우저를 닫기 전까지 정보가 유지된다.
@@ -738,12 +738,12 @@ request 내장 객체의 메소드들
 
 [Apache Tomcat 9](https://tomcat.apache.org/tomcat-9.0-doc/jndi-datasource-examples-howto.html#Oracle_8i,_9i_&_10g)
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2014.png)
+<img src="/JSP&Servlet/image/Untitled14.png">
 
 - 데이터베이스와 연결된 커넥션을 미리 만들고 이를 pool로 관리하는 기법. 필요할 때마다 커넥션을 이용하기 때문에 빠르게 DB에 접속할 수 있다.
 - DB의 부하를 줄이고 시간을 단축시키기 때문에 효율적으로 DB를 이용할 수 있다.
 
-![Untitled](%5BJSP%20&%20Servlet%5D%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%201ca7ed220f9e47a28605a49362fa21ff/Untitled%2015.png)
+<img src="/JSP&Servlet/image/Untitled15.png">
 
 ## 2) 파일 업로드하기
 
