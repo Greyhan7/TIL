@@ -242,7 +242,7 @@ static {
 	}
 ```
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%207.png)
+<img src="/Spring/image/Untitled 7.png">
 
 - sql문들을 담는 컨테이너인 sqlSessionFactory를 생성하고, 이 sql문들을 활용할 수 있는 메소드들을 작성한다.
 
