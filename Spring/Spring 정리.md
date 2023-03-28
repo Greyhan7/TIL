@@ -248,7 +248,7 @@ static {
 
 ### 4__DBmanager를 통해 만든 메소드를 통해 DAO를 완성하고, 이를 Controller에 전달하여 View를 만든다.
 
-[페이징 처리하기 (thymeleaf 활용)](페이징 처리하기.md)
+#### [페이징 처리하기](https://github.com/Greyhan7/TIL/blob/69d72c3d4c7becebaa20dd84e95a63e7705e9c53/Spring/%ED%8E%98%EC%9D%B4%EC%A7%95%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0.md)
 
 ## 2) Spring & JPA로 간단한 게시판 만들기
 
