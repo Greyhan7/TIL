@@ -7,7 +7,7 @@
 - 웹 사이트를 개발하기 위한 자바 기반의 프레임워크.
 - 공공기관에서 Spring과 mybatis를 활용하기 때문에 전자정부 표준프레임워크 기술로 쓰이고 있다.
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled.png)
+<img src="/Spring/image/Untitled.png">
 
 ### 프레임워크란
 
@@ -22,9 +22,9 @@
     - Controller : View와 Service 사이를 연결하는 기능. 클라이언트에서 입력한 URL에 맞는 View를 보여주고, View에서 처리하는 데이터를 Service로 전달해준다.
     - Service : Controller를 통해 화면과 연결되고, DAO를 통해 데이터베이스와 연결된다.
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%201.png)
+<img src="/Spring/image/Untitled 1.png">
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%202.png)
+<img src="/Spring/image/Untitled 2.png">
 
 ## 2) Spring의 속성
 
@@ -38,7 +38,7 @@
 - 클래스와 클래스 사이에 인터페이스를 넣어 객체 간 의존관계를 줄일 수 있는 기술.
 - 의존관계를 줄여 수정과 관리를 용이하게 할 수 있다.
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%203.png)
+<img src="/Spring/image/Untitled 3.png">
 
 ### Pojo(Plain Old Java Object) 기반의 구성
 
@@ -49,7 +49,7 @@
 
 - 각 클래스, 메소드에서 공통적으로 갖고 있는 로직을 공통 관심사항으로 정의하여, 이를 쉽게 관리할 수 있다.
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%204.png)
+<img src="/Spring/image/Untitled 4.png">
 
 - Advice : 공통 관심사항에 대한 정보. 어떤 것을 공통 사랑으로 해아하는 지에 대한 정보가 담겨있다.
     - Before Advice : 타깃 메소드가 호출되기 전에 기능하는 advice.
@@ -143,7 +143,7 @@
 
 ### 1__프로젝트 생성
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%205.png)
+<img src="/Spring/image/Untitled 5.png">
 
 - Name : 프로젝트의 이름을 말한다.
 - Type : 어떤 프로젝트를 만들 것인지에 대한 설정
@@ -173,7 +173,7 @@
 
  
 
-![Untitled](%5BSpring%20&%20mybatis%20&%20JPA%5D%20d2b49b3e0271488b93fbc9951dffa9de/Untitled%206.png)
+<img src="/Spring/image/Untitled 6.png">
 
 - MapConfig를 통해 db의 정보와 mapper 파일의 경로를 입력한다.
 - <typeAliases> 를 통해 Mapper에서 활용하는 vo의 애칭을 설정할 수 있다.
