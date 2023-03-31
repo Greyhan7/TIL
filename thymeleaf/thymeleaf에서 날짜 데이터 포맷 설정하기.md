@@ -9,3 +9,6 @@
 ```HTML
  <td th:text="${#temporals.format('20230331','yyyy-MM-dd')}"></td>
 ```
+
+참고 (thymeleaf 공식 깃허브)
+https://github.com/thymeleaf/thymeleaf-extras-java8time
