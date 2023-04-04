@@ -16,6 +16,6 @@
 ### Spring<br/>
 #### [01 Spring 기본 개념](https://github.com/Greyhan7/TIL/blob/01c4a2f168f489affcff17a6a161e82cbb855fe2/Spring/Spring%20%EC%A0%95%EB%A6%AC.md)
 #### [02 Spring으로 paging 처리하기](https://github.com/Greyhan7/TIL/blob/01c4a2f168f489affcff17a6a161e82cbb855fe2/Spring/%ED%8E%98%EC%9D%B4%EC%A7%95%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0.md)
-#### [03 Spring과 Springboot 차이점](https://github.com/Greyhan7/TIL/blob/ea5329ee54504d74961789a5af380ed9a1755d19/Spring/Spring%20%EC%A0%95%EB%A6%AC.md)
+#### [03 Spring과 Springboot 차이점](https://github.com/Greyhan7/TIL/blob/7669825d521e02c139d20d9e3f952186a1fc2d51/Spring/Spring%EA%B3%BC%20Springboot%20%EC%B0%A8%EC%9D%B4.md)
 ### Thymeleaf <br/>
 #### [01 thymeleaf에서 날짜 데이터 포맷 설정하기 (#date, #temporals)](https://github.com/Greyhan7/TIL/blob/39d216c42568ac0ede80be504b9fe99dac271213/thymeleaf/thymeleaf%EC%97%90%EC%84%9C%20%EB%82%A0%EC%A7%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8F%AC%EB%A7%B7%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)
