@@ -15,6 +15,7 @@
 ### JavaScript<br/>
 #### [01 Ajax 비동기식 처리](https://github.com/Greyhan7/TIL/blob/701107847e03604e96d2b970f37ba1f0d8b754d5/JavaScript/Ajax%20%EB%B9%84%EB%8F%99%EA%B8%B0%EC%8B%9D%20%EC%B2%98%EB%A6%AC.md)
 #### [02 문자열에서 특정 문자, 숫자를 뽑아내는 match 함수 (feat.정규표현식)](https://github.com/Greyhan7/TIL/blob/5de3de544e4812127c0619d5d48ba94214758db2/JavaScript/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%20%ED%8A%B9%EC%A0%95%20%EB%8B%A8%EC%96%B4%20%EC%B0%BE%EB%8A%94%20match.md)
+#### [03 fetch 함수로 api 호출하기](https://github.com/Greyhan7/TIL/blob/49c426d1cdb0fcfc57f90cae5b90861951db2bba/JavaScript/fetch%20%ED%95%A8%EC%88%98%EB%A1%9C%20api%20%ED%98%B8%EC%B6%9C%ED%95%98%EA%B8%B0.md)
 
 ### Spring<br/>
 #### [01 Spring 기본 개념](https://github.com/Greyhan7/TIL/blob/01c4a2f168f489affcff17a6a161e82cbb855fe2/Spring/Spring%20%EC%A0%95%EB%A6%AC.md)
