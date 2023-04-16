@@ -26,3 +26,6 @@
 ### Thymeleaf <br/>
 #### [01 thymeleaf에서 날짜 데이터 포맷 설정하기 (#date, #temporals)](https://github.com/Greyhan7/TIL/blob/39d216c42568ac0ede80be504b9fe99dac271213/thymeleaf/thymeleaf%EC%97%90%EC%84%9C%20%EB%82%A0%EC%A7%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8F%AC%EB%A7%B7%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.md)
 
+
+### 깃허브 <br/>
+#### [01 refusing to merge unrelated histories 에러]()
