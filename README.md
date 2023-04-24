@@ -14,7 +14,7 @@
 <details>
 <summary>이것이 자바다 정리</summary>
 <div markdown="1">
-<br>
+ 
  #### [챕터 06 클래스](https://github.com/Greyhan7/TIL/blob/4d4a55ea692c9992a8f7788212f6aeb2b832df33/Java/%EC%9D%B4%EA%B2%83%EC%9D%B4%20%EC%9E%90%EB%B0%94%EB%8B%A4/ch06%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
  
 </div>
