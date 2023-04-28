@@ -46,3 +46,7 @@
 
 ### 깃허브 <br/>
 #### [01 refusing to merge unrelated histories 에러]()
+
+### WEB <br/>
+#### [01 HTTP의 특성](https://github.com/Greyhan7/TIL/blob/f10caf0e0b6274c0dd2700007c6b167abc26b666/WEB/HTTP%EC%9D%98%20%ED%8A%B9%EC%84%B1.md)
+#### [02 인터넷과 웹](https://github.com/Greyhan7/TIL/blob/f10caf0e0b6274c0dd2700007c6b167abc26b666/WEB/%EC%9D%B8%ED%84%B0%EB%84%B7%EA%B3%BC%20%EC%9B%B9.md)
