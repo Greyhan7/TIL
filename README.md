@@ -50,3 +50,6 @@
 ### WEB <br/>
 #### [01 HTTP의 특성](https://github.com/Greyhan7/TIL/blob/f10caf0e0b6274c0dd2700007c6b167abc26b666/WEB/HTTP%EC%9D%98%20%ED%8A%B9%EC%84%B1.md)
 #### [02 인터넷과 웹](https://github.com/Greyhan7/TIL/blob/f10caf0e0b6274c0dd2700007c6b167abc26b666/WEB/%EC%9D%B8%ED%84%B0%EB%84%B7%EA%B3%BC%20%EC%9B%B9.md)
+
+### 책 리뷰 <br/>
+#### [01 스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://github.com/Greyhan7/TIL/blob/a7f6f045fe46982536781154d97d257e0804e40f/bookReview/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%EC%99%80%20AWS%EB%A1%9C%20%ED%98%BC%EC%9E%90%20%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4.md)
