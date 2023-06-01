@@ -23,7 +23,7 @@
 
 
 ### Oracle<br/>
-#### [01 Oracle 기본 개념](https://github.com/Greyhan7/TIL/blob/01c4a2f168f489affcff17a6a161e82cbb855fe2/Oracle/Oracle%20%EC%A0%95%EB%A6%AC.md)
+#### [01 Oracle 기본 개념](https://github.com/Greyhan7/TIL/blob/3145ebcfc34783e0a1b4122c9dbe43e7ec92f982/Oracle/Oracle%20%EC%A0%95%EB%A6%AC.md)
 #### [02 외래키와 cascade 간단 정리](https://github.com/Greyhan7/TIL/blob/850e231c4fee31da1196ccd79814fc84a03086fa/Oracle/%EC%99%B8%EB%9E%98%ED%82%A4%EC%99%80%20cascade.md)
 
 ### JSP&Servlet<br/>
