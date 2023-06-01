@@ -662,9 +662,105 @@ select comm, nvl2(comm, 'O', 'X') from emp
 
 ## 1) 프로시저
 
+- 처리 결과를 반환하지 않거나 한 개 이상의 값을 반환하는 트랜잭션 언어.
+- 호출을 통해 실행되어 미리 저장해 놓은 SQL 작업을 수행한다.
+
+```oracle
+DECLARE (필수) : 프로시저의 명칭, 변수, 인수, 데이터 타입을 정의하는 선언부.
+BEGIN (필수) : 프로시저 시작.
+    CONTROL : 조건문 또는 반복문.
+    SQL : DML, DCL을 통해 데이터 관리를 위한 조회, 추가, 수정, 삭제 작업.
+    EXCEPTION : 예외 발생 시 실행하는 구문.
+    TRANSACTION : 수행 데이터 작업을 DB에 적용할지 취소할지 결정하는 처리.
+END (필수) : 프로시저 끝.
+```
+
+- 프로시저 생성 및 실행하기 (예시)
+
+```oracle
+create or replace PROCEDURE emp_change_s(i_사원번호 IN INT) : 프로시저명(파라미터) -> IN : 입력 값, OUT : 출력 값, INOUT : 입출력 동시에, 매개변수명, 자료형을 기재.
+IS
+BEGIN
+    UPDATE 급여 SET 지급방식 = 'S' where 사원번호 = i_사원번호;
+    EXCEPTION
+        When Program_error then
+            rollback;
+    COMMIT;
+END;
+
+EXECUTE 저장된 프로시저명();
+```
+
 ## 2) 트리거
 
+- 데이터베이스 시스템에서 데이터의 입력, 갱신, 삭제 등의 이벤트가 발생할 때마다 자동적으로 수행되는 절차형 SQL.
+- 테이블 또는 뷰와 관련되어 Insert, Update, Delete 같은 DML문이 발생할 때 작동되는 데이터베이스 개체라 할 수 있다.
+
+- 트리거의 구성
+
+```oracle
+Declare (필수)
+Event (필수)
+Begin (필수)
+    Control
+    SQL
+    EXCEPTION
+END (필수)
+```
+- 트리거 생성 예시
+
+```oracle
+Create Trigger 트리거명 [동작시기 옵션] : After (해당 테이블이 변경된 후 트리거 동작), Before (해당 테이블이 변경되기 전 트리거 동작) [동작 옵션] : Insert, Update, Delete
+on 테이블명
+Referencing [new | old] as 테이블명
+for each row : 모든 튜플마다 트리거 적용
+[when 조건식]
+begin
+    트리거 body
+end;
+
+- <학생> 테이블에 새로운 튜블이 삽입될 때, 삽입되는 튜플에 학년 정보가 누락되어있으면 학년 필드에 "신입생"을 치환하는 트리거를 '학년정보_tri'라는 이름으로 정의하기
+
+Create Trigger 학년정보_tri Before insert 
+on 학생
+Referencing new as new_table
+for each row
+when (new_table.학년 is NULL)
+Begin
+    :new_table.학년 := '신입생';
+End;
+```
+
 ## 3) 펑션
+
+- 프로시저와 비슷하지만 반환값이 1개인 함수.
+- select만 할 수 있다.
+
+```oracle
+Create Funtion 함수명(파라미터)
+[지역변수 선언]
+Begin
+    함수 body;
+    return 반환값;
+End;
+
+- i_성별코드를 받아 1이면 "남자", 2면 "여자"를 반환하는 함수를 'Get_SEX'라는 이름으로 정의.
+
+Create Function Get_SEX(i_성별코드 In INT)
+Return Varchar2
+is
+Begin
+    if(i_성별코드=1) then
+        return '남자';
+    else
+        return '여자';
+    end if
+End;
+```
+
+![image](https://github.com/Greyhan7/TIL/assets/99037697/582e2dab-5320-4e4b-b617-4968377c4c18)
+
+
 
 - 오라클 설치 및 사용자 계정 만들기
     
